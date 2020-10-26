@@ -4,10 +4,6 @@ from typing import Any, Tuple, Dict
 
 import logging
 
-from enum import Enum
-
-import sys
-
 class NotDescentDirection(Exception):
     pass
 
@@ -95,7 +91,7 @@ class Newton:
             # Get current grads
             gradients = self.gradient_func(params)
 
-            # Get regularized inv hession
+            # Get regularized inv hessian
             rih = self.reg_inv_hessian(params)
 
             # Calculate updates
