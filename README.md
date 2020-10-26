@@ -1,5 +1,7 @@
 # Tutorial of Armijo backtracking line search for Newton method in Python
 
+[You can read this story on Medium here.](https://medium.com/practical-coding/line-search-methods-in-optimization-dee49c1dec0c)
+
 ## Contents
 
 * `newton.py` contains the implementation of the Newton optimizer.
